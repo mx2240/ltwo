@@ -1,4 +1,15 @@
 import Box from "../componets/Box";
+import MainSI from "../componets/MainSI";
+
+import ImageCardGrid from "../componets/ImageCardGrid";
+
+
+
+
+
+
+
+
 
 
 
@@ -39,7 +50,10 @@ function Home() {
 
             <h1> Home</h1>
 
-            <Box Data={student} />
+            <MainSI></MainSI>
+
+
+            <Box Data={student}></Box>
 
 
 
