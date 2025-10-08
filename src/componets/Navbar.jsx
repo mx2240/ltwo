@@ -1,4 +1,4 @@
-
+// import "../js/Color.js"
 
 
 
@@ -18,6 +18,7 @@ function Navbar() {
                 <a href="/About us">About us</a>
                 <a href="/Services"> Our service</a>
                 <a href="/Counter"> CountPage</a>
+                <button id="colorBtn">Change Background Color</button>
 
             </nav>
 

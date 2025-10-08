@@ -1,6 +1,7 @@
 import Box from "../componets/Box";
 import MainSI from "../componets/MainSI";
 import ImageCardGrid from "../componets/ImageCardGrid";
+import Form from "../componets/Form";
 
 
 
@@ -64,6 +65,8 @@ function Home() {
 
 
             <ImageCardGrid />
+
+            {/* <Form /> */}
 
         </>
 
