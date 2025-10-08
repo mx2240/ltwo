@@ -1,4 +1,8 @@
-function Box({ Data }) {
+function Box({ Data, MyFunct, MyFunct2 }) {
+
+    MyFunct("Hello from Box Component........");
+
+    MyFunct2("Hello from Box Component 22222........");
 
     return (
 

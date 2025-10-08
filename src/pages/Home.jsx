@@ -1,6 +1,5 @@
 import Box from "../componets/Box";
 import MainSI from "../componets/MainSI";
-
 import ImageCardGrid from "../componets/ImageCardGrid";
 
 
@@ -41,7 +40,15 @@ function Home() {
     ]
 
 
+    let Boxer = (box) => {
 
+        console.log(box);
+    }
+
+    let Boxers = (box) => {
+
+        console.log(box);
+    }
 
 
 
@@ -53,9 +60,10 @@ function Home() {
             <MainSI></MainSI>
 
 
-            <Box Data={student}></Box>
+            <Box Data={student} MyFunct={Boxer} MyFunct2={Boxers} ></Box>
 
 
+            <ImageCardGrid />
 
         </>
 

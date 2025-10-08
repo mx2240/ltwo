@@ -10,6 +10,7 @@ import Contact from './pages/Contact'
 import OurService from './pages/OurService'
 import PageNotFound from './pages/PageNotFound'
 import Footer from './componets/Footer'
+import CounterPage from './pages/CounterPage'
 
 
 function App() {
@@ -29,15 +30,11 @@ function App() {
           <Route path='/About us' element={<About></About>}></Route>
           <Route path='/Services' element={<OurService />} />
           <Route path='*' element={<PageNotFound />} />
-
-
+          <Route path='/Counter' element={<CounterPage />}></Route>
         </Routes>
 
 
-
-
       </Router>
-
 
 
 

@@ -18,7 +18,7 @@ function MainSI() {
 
                 <main>
 
-                    <h1> Hello and welcome</h1>
+                    <h1> Hello</h1>
 
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. spoer</p>
 
