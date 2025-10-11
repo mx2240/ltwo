@@ -8,6 +8,8 @@ function Form2() {
 
     const FormHandler = async () => {
 
+        event.preventDefault();
+
         console.log("form submitted");
 
 
@@ -54,3 +56,5 @@ function Form2() {
 
 
 }
+
+export default Form2
