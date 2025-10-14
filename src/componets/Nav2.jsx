@@ -5,7 +5,7 @@ import React from "react";
 const Nav2 = () => {
     return (
         <nav style={styles.nav}>
-            <div style={styles.logo}>MyApp</div>
+            <div style={styles.logo}>Test</div>
             <ul style={styles.navLinks}>
                 <li><a href="#services" style={styles.link}>Services</a></li>
                 <li><a href="#contact" style={styles.link}>Contact</a></li>
