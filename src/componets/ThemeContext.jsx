@@ -26,9 +26,10 @@ function Themecontext() {
             <ThemeContext.Provider value="white">
 
                 <Navbar></Navbar>
+                <Home></Home>
             </ThemeContext.Provider>
 
-            <Home></Home>
+
 
 
 
