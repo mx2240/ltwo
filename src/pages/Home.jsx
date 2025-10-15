@@ -3,6 +3,8 @@ import MainSI from "../componets/MainSI";
 import ImageCardGrid from "../componets/ImageCardGrid";
 import Form from "../componets/Form";
 import Form2 from "../componets/Form2";
+import { useContext } from "react";
+import Themecontext from "../componets/ThemeContext";
 
 
 

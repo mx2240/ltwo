@@ -12,10 +12,12 @@ import PageNotFound from './pages/PageNotFound'
 import Footer from './componets/Footer'
 import CounterPage from './pages/CounterPage'
 import Test from './pages/Test'
+import Themecontext from './componets/ThemeContext'
 
 
 function App() {
   const [count, setCount] = useState(0)
+
 
   return (
     <>
@@ -33,10 +35,13 @@ function App() {
           <Route path='*' element={<PageNotFound />} />
           <Route path='/Counter' element={<CounterPage />}></Route>
           <Route path='/Test' element={<Test />}></Route>
+
+
         </Routes>
 
 
       </Router>
+
 
 
 

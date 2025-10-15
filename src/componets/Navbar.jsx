@@ -1,4 +1,9 @@
 // import "../js/Color.js"
+import { useContext } from "react"
+import Themecontext from "./ThemeContext"
+
+
+
 
 
 
@@ -6,10 +11,17 @@
 function Navbar() {
 
 
+
+
+
+
+
     return (
 
 
         <>
+
+
 
 
             <nav className=" nav">
@@ -21,7 +33,13 @@ function Navbar() {
                 <a href="/Test"> Test</a>
                 {/* <button id="colorBtn">Change Background Color</button> */}
 
+
+
             </nav>
+
+
+
+
 
 
 
