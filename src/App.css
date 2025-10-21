@@ -29,7 +29,7 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    background-color: #333;
+    background-color: black;
     height: auto;
     color: white;
     text-align: center;
