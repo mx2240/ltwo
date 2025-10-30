@@ -14,6 +14,7 @@ import CounterPage from './pages/CounterPage'
 import Test from './pages/Test'
 import Spa from './pages/Spa'
 import Nav2 from './componets/Nav2'
+import Login from './componets/Login'
 import { createContext, useContext } from 'react'
 
 

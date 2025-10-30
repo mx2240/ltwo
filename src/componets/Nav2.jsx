@@ -7,8 +7,8 @@ const Nav2 = () => {
         <nav style={styles.nav}>
             <div style={styles.logo}>Spa</div>
             <ul style={styles.navLinks}>
-                <li><a href="#services" style={styles.link}>Services</a></li>
-                <li><a href="#contact" style={styles.link}>Contact</a></li>
+                <li><a href='/Contact' style={styles.link}>Services</a></li>
+                <li><a href='/About us' style={styles.link}>Contact</a></li>
                 <li><a href="#login" style={styles.link}>Login</a></li>
                 <li>
                     <a href="#signup" style={{ ...styles.link, ...styles.signup }}>
