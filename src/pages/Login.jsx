@@ -1,5 +1,5 @@
 
-
+import Profile from "../componets/Profile"
 
 
 function Login() {
@@ -11,7 +11,7 @@ function Login() {
 
 
 
-
+        <Profile />
 
 
 

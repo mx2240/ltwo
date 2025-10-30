@@ -4,14 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './componets/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+
 import About from './pages/About us'
 import Contact from './pages/Contact'
-import OurService from './pages/OurService'
+
 import PageNotFound from './pages/PageNotFound'
 import Footer from './componets/Footer'
-import CounterPage from './pages/CounterPage'
-import Test from './pages/Test'
+
+
 import Spa from './pages/Spa'
 import Nav2 from './componets/Nav2'
 import Login from './componets/Login'

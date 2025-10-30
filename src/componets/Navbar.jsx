@@ -1,6 +1,5 @@
 // import "../js/Color.js"
 import { useContext } from "react"
-import Themecontext from "./ThemeContext"
 
 
 

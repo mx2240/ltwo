@@ -1,7 +1,5 @@
 
-
-
-
+import Profile from "./Profile"
 function Login() {
 
 
@@ -14,7 +12,13 @@ function Login() {
 
 
 
+        <>
+            <Profile />
 
+
+
+
+        </>
 
 
 
