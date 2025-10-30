@@ -1,5 +1,5 @@
 
-import Profile from './componets/Profile'
+
 
 
 function Login() {
@@ -8,7 +8,6 @@ function Login() {
     return <>
 
 
-        <h1> Login page </h1>
 
 
 
@@ -16,7 +15,6 @@ function Login() {
 
 
 
-        <Profile />
 
 
 
