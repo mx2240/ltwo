@@ -9,7 +9,7 @@ const Nav2 = () => {
             <ul style={styles.navLinks}>
                 <li><a href='/Contact' style={styles.link}>Services</a></li>
                 <li><a href='/About us' style={styles.link}>Contact</a></li>
-                <li><a href="#login" style={styles.link}>Login</a></li>
+                <li><a href='/Login' style={styles.link}>Login</a></li>
                 <li>
                     <a href="#signup" style={{ ...styles.link, ...styles.signup }}>
                         Sign Up

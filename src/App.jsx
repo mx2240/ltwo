@@ -18,6 +18,7 @@ import Login from './componets/Login'
 import { createContext, useContext } from 'react'
 
 
+
 function App() {
   const [count, setCount] = useState(0)
   const ThemeContext = createContext()
@@ -123,9 +124,19 @@ function App() {
             <Route path='*' element={<PageNotFound />} />
             {/* <Route path='/Counter' element={<CounterPage />} /> */}
             <Route path='/Spa' element={<Spa />} />
+            <Route path='/Login' element={<Login />} />
           </Routes>
         </Router>
       </ThemeContext.Provider>
+
+
+
+
+
+
+
+
+
 
 
 
