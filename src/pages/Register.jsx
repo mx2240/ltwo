@@ -2,29 +2,28 @@ import { useState } from 'react';
 import axiosInstance from '../api/axiosInstance';
 import { useNavigate } from 'react-router-dom';
 
-export default function Login() {
+export default function Register() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
 
-    const handleLogin = async (e) => {
+    const handleRegister = async (e) => {
         e.preventDefault();
         try {
-            const res = await axiosInstance.post('/auth/login', { email, password });
-            localStorage.setItem('token', res.data.token);
-            navigate('/');
+            await axiosInstance.post('/auth/register', { email, password });
+            navigate('/login');
         } catch (err) {
-            alert('Login failed');
+            alert('Registration failed');
         }
     };
 
     return (
         <div>
-            <h1>Login</h1>
-            <form onSubmit={handleLogin}>
+            <h1>Register</h1>
+            <form onSubmit={handleRegister}>
                 <input placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} required />
                 <input placeholder="Password" type="password" value={password} onChange={e => setPassword(e.target.value)} required />
-                <button type="submit">Login</button>
+                <button type="submit">Register</button>
             </form>
         </div>
     );

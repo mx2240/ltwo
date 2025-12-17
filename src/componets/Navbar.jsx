@@ -1,56 +1,21 @@
-// import "../js/Color.js"
-import { useContext } from "react"
+import { Link } from 'react-router-dom';
 
+export default function Nav() {
+    const token = localStorage.getItem('token');
 
-
-
-
-
-
-function Navbar() {
-
-
-
-
-
-
+    const handleLogout = () => {
+        localStorage.removeItem('token');
+        window.location.reload();
+    };
 
     return (
-
-
-        <>
-
-
-
-
-            <nav className=" nav">
-                <a href="/">Home</a>
-                <a href="/Contact">Contact</a>
-                <a href="/About us">About us</a>
-                {/* <a href="/Services"> Our service</a> */}
-                {/* <a href="/Counter"> CountPage</a> */}
-                <a href="/Test"> Test</a>
-                {/* <button id="colorBtn">Change Background Color</button> */}
-
-
-
-            </nav>
-
-
-
-
-
-
-
-
-
-
-
-        </>
-
-
-    )
-
+        <nav>
+            <Link to="/">Home</Link> |
+            <Link to="/shop">Shop</Link> |
+            <Link to="/cart">Cart</Link> |
+            <Link to="/favourite">Favourite</Link> |
+            <Link to="/contact">Contact</Link> |
+            {token ? <button onClick={handleLogout}>Logout</button> : <Link to="/login">Login</Link>}
+        </nav>
+    );
 }
-
-export default Navbar
